@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 # Create the config class with default values.
-class Config:
+class Config(object):
     """
     Config class.
     """
