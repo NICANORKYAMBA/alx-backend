@@ -22,24 +22,24 @@ app.config['BABEL_DEFAULT_TIMEZONE'] = 'UTC'
 # Mock user table
 users = {
     1: {
-        'name': 'Balou',
-        'locale': 'fr',
-        'timezone': 'Europe/Paris'
+        "name": "Balou",
+        "locale": "fr",
+        "timezone": "Europe/Paris"
     },
     2: {
-        'name': 'Beyonce',
-        'locale': 'en',
-        'timezone': 'US/Central'
+        "name": "Beyonce",
+        "locale": "en",
+        "timezone": "US/Central"
     },
     3: {
-        'name': 'Spock',
-        'locale': 'kg',
-        'timezone': 'Vulcan'
+        "name": "Spock",
+        "locale": "kg",
+        "timezone": "Vulcan"
     },
     4: {
-        'name': 'Teletubby',
-        'locale': None,
-        'timezone': 'Europe/London'
+        "name": "Teletubby",
+        "locale": "None",
+        "timezone": "Europe/London"
     },
 }
 
